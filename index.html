@@ -20,7 +20,7 @@
 				<!-- Header -->
                     <header id="header" class="alt">
                         <h1 class="myName">Yufei Song</h1>
-                        <p class="myBio">Information Systems Management<br/>
+                        <p class="myBio">M.S. in Information Systems Management<br/>
 							@ Carnegie Mellon University</p>
                     </header>
 
@@ -43,14 +43,14 @@
                                         <header class="major">
                                             <h2 class="about">About</h2>
                                         </header>
-                                        <p>
-                                            Hi, I am a master's student in Information Systems Management at Carnegie Mellon.
-                                            My interests lie in data science and computational social science, 
-                                            and I am passionate about leveraging data for social good.
-                                        </p>
+                                        <h4>
+                                            Hi, I am a master's student in Information Systems Management at Carnegie Mellon University. 
+                                            My interests span business intelligence engineering and computational social science.
+                                            Outside of school, I enjoy figure skating, and have a black cat Riley.
+                                        </h4>
                                         <!-- Contact Info -->
-                                        <p>Email: <a href="yufeison@andrew.cmu.edu">yufeison@andrew.cmu.edu</a><br />
-                                        </p>
+                                        <h4>Email: <a href="yufeison@andrew.cmu.edu">yufeison@andrew.cmu.edu</a><br />
+                                        </h4>
 
                                         <ul class="icons">
                                             <li><a href="https://github.com/yufeisong0914" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
@@ -61,61 +61,219 @@
                                 </div>
                             </section>
                         
-                         <!-- Projects -->
                             <section id="first" class="main special">
                                 <header class="major">
-                                    <h2>Projects</h2>
+                                    <h2>Selected Projects</h2>
                                 </header>
 
                                 <div class="projects">
-                                    <p>To be updated..</p>
+
+                                    <!-- Project 1 -->
+                                    <h3><b>Data-Driven Storytelling Dashboard on Candy Consumption, Culture, and Student Well-Being</b></h3>
+                                    <h4>OCTOBER 2024</h4>
+
+                                    <ul>
+                                        <li>
+                                            Designed a data story aligned with CMU leadership decision on campus candy consumption needs, by collecting, cleaning, and integrating market, demographic, and behavioral datasets; analyzed variables including ethnicity, purchasing channels, health indicators, and seasonality to translate macro market trends into student-level insights
+                                        </li>
+                                        <li>
+                                            Processed and visualized structured datasets using Tableau, creating maps, bubble charts, bar charts, and time-series analyses to reveal patterns in market share, consumption preferences, and seasonal demand
+                                        </li>
+                                        <li>
+                                            Synthesized analytical findings into actionable recommendations: diversified product offerings, optimized digital distribution channels, and targeted stress-relief initiatives, to support data-informed campus well-being strategies
+                                        </li>
+                                    </ul>
+
+                                    <div style="text-align: center;">
+                                        <a href="https://public.tableau.com/app/profile/yufei.song8408/viz/IronViz_17680300044170/Story1">
+                                            View interactive dashboard on Tableau
+                                        </a>
+                                    </div>
+
+                                    <div class="video-container">
+                                        <iframe
+                                            src="https://www.youtube-nocookie.com/embed/tyK84kvoiJQ"
+                                            title="Project Demo Video"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+
+                                    <hr>
+
+                                    <!-- Project 2 -->
+                                    <h3><b>Intelligent End-to-End System for Article Similarity Analysis and Plagiarism Detection with Analytics Dashboard</b></h3>
+                                    <h4>AUGUST - DECEMBER 2025</h4>
+
+                                    <ul>
+                                        <li>Built scalable Python-based ingestion pipelines to crawl, clean, and apply NLP processing on news articles, enabling detection of suspicious articles for analytics and content protection</li>
+                                        <li>Designed analytics-ready data models in MongoDB Atlas from BigQuery sources, powering text vectorization and similarity scoring pipelines across historical and incoming articles, reducing false positives in suspicious content detection by ~24% and lowering editorial review workload</li>
+                                        <li>Built operational Streamlit BI dashboards enabling monitoring of content risk signals, duplication rates, and investigation outcomes; improved decision efficiency and consistency for editorial teams</li>
+                                        <li>Productionized analytics pipelines with Docker, supporting consistent deployments across development and analytics environments</li>
+                                    </ul>
+
+                                    <div style="text-align: center;">
+                                        <a href="https://github.com/yufeisong0914/GannettMediaCapstone">
+                                            View source code on GitHub
+                                        </a>
+                                    </div>
+
+                                    <div class="image-carousel">
+                                        <a href="images/Gannett/gm01.png" target="_blank">
+                                            <img src="images/Gannett/gm01.png" alt="Dashboard overview">
+                                        </a>
+                                        <a href="images/Gannett/gm02.png" target="_blank">
+                                            <img src="images/Gannett/gm02.png" alt="Similarity analysis">
+                                        </a>
+                                        <a href="images/Gannett/gm03.png" target="_blank">
+                                            <img src="images/Gannett/gm03.png" alt="Plagiarism alerts">
+                                        </a>
+                                        <a href="images/Gannett/gm04.png" target="_blank">
+                                            <img src="images/Gannett/gm04.png" alt="Article investigation view">
+                                        </a>
+                                        <a href="images/Gannett/gm05.png" target="_blank">
+                                            <img src="images/Gannett/gm05.png" alt="Article investigation view">
+                                        </a>
+                                    </div>
+
+                                    <hr>
+
+                                    <!-- Project 3 -->
+                                    <h3><b>Real-Time RetailRocket User Behavior Analytics Pipeline</b></h3>
+                                    <h4>JANUARY 2026</h4>
+
+                                    <ul>
+                                        <li>Built an end-to-end real-time data pipeline to process 2.8M+ event-level user behavior records using Kafka for streaming ingestion and Spark Structured Streaming for real-time transformation, with MongoDB serving as the downstream analytics store</li>
+                                        <li>Analyzed real-time user behavior and conversion funnels by building a streaming analytics pipeline to process event-level data</li>
+                                        <li>Implemented FastAPI-based ingestion services and containerized the ingestion, processing, and analytics layers with Docker, validating data flows via Postman to ensure reproducible environments and production-style service integration</li>
+                                    </ul>
+
+                                    <div style="text-align: center;">
+                                        <a href="https://github.com/yufeisong0914/retailrocket-ecommerce-streaming">
+                                            View source code on GitHub
+                                        </a>
+                                    </div>
+
+                                    <div class="video-container">
+                                        <iframe
+                                            src="https://www.youtube-nocookie.com/embed/0xLD_f6LOn8"
+                                            title="Project Demo Video"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+
+                                    <hr>
+
+                                    <!-- Project 4 -->
+                                    <h3><b>E-Commerce Transaction Analytics Engineering on AWS</b></h3>
+                                    <h4>DECEMBER 2025</h4>
+
+                                    <ul>
+                                        <li>Built an AWS data pipeline and ETL workflows processing 541K+ e-commerce transactions, transforming data into analytics-ready schemas in Amazon Redshift using API Gateway, Lambda, Kinesis, S3, DynamoDB, Python, and SQL</li>
+                                        <li>Enabled Power BI dashboards on Redshift to analyze product, revenue, and geographic performance insights</li>
+                                    </ul>
+
+                                    <div style="text-align: center;">
+                                        <a href="https://github.com/yufeisong0914/retailrocket-ecommerce-streaming">
+                                            View source code on GitHub
+                                        </a>
+                                    </div>
+
+                                    <div class="video-container">
+                                        <iframe
+                                            src="https://www.youtube-nocookie.com/embed/0xLD_f6LOn8"
+                                            title="Project Demo Video"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+
+                                    <hr>
+
+                                    <!-- Project 5 -->
+                                    <h3><b>A Computational Analysis of Energy & Public Policy Dissertations at CMU</b></h3>
+                                    <h4>DECEMBER 2025</h4>
+
+                                    <ul>
+                                        <li>Built an AWS data pipeline and ETL workflows processing 541K+ e-commerce transactions, transforming data into analytics-ready schemas in Amazon Redshift using API Gateway, Lambda, Kinesis, S3, DynamoDB, Python, and SQL</li>
+                                        <li>Enabled Power BI dashboards on Redshift to analyze product, revenue, and geographic performance insights</li>
+                                    </ul>
+
+                                    <div style="text-align: center;">
+                                        <a href="https://github.com/yufeisong0914/retailrocket-ecommerce-streaming">
+                                            View source code on GitHub
+                                        </a>
+                                    </div>
+
+                                    <div class="video-container">
+                                        <iframe
+                                            src="https://www.youtube-nocookie.com/embed/0xLD_f6LOn8"
+                                            title="Project Demo Video"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+
+
                                 </div>
                             </section>
+
 
 						<!-- Resume -->
 							<section id="second" class="main special">
 								<header class="major">
                                     <h2>Resume</h2>
-                                    <p class="view-in-pdf"><a href="files/Resume_Website.pdf" target="_blank">View in PDF</a></p>
+                                    <p class="view-in-pdf"><a href="files/Resume_011026.pdf" target="_blank">View in PDF</a></p>
 
                                     <section class="resume">
                                         <p><b>EDUCATION</b><br>
-                                            M.S. Information Systems Management, Carnegie Mellon University<br>
-                                            B.S. Accounting and Finance, University of Surrey
+                                            <b>M.S. Information Systems Management</b>, Carnegie Mellon University<br>
+                                            <!-- Coursework: Intermediate Statistics, Distributed Systems, Introduction to Deep Learning, Cloud Computing, Modern Experimental Design, Applied Econometrics, Database Management, Time
+Series Forecasting in Python, Business Analysis, GenAI in Software Development<br> -->
+
+                                            <span style="display: block; margin-left: 20px;">
+                                            <b>Coursework</b>: Intermediate Statistics, Distributed Systems, Introduction to Deep Learning,
+                                            Cloud Computing, Modern Experimental Design, Applied Econometrics, Database Management,
+                                            Time Series Forecasting in Python, Business Analysis, GenAI in Software Development
+                                            </span>
+
+                                            <b>B.S. Accounting and Finance</b>, University of Surrey
                                         </p>
 
                                         <hr>
                                         <p><b>EXPERIENCE</b><br>
 											<!-- Research Assistant, <a href="https://www.heinz.cmu.edu/"> CMU Heinz College</a>, Jun. 2025 - Aug. 2025, Pittsburgh, PA<br> -->
-                                            <b>Content Protection Engineer</b>, <a href="https://www.gannett.com/"> Gannett Media</a>, Aug. 2025 - Present, Pittsburgh, PA<br>
-                                            <b>Data Science Intern</b>, <a href="https://www.sportsmedia.net/"> Sports Media</a>, Oct. 2025 - Present, Remote<br>
+                                            <b>Research Assistant</b>, <a href="https://s3d.cmu.edu/"> S3D, Carnegie Mellon University</a>, Nov. 2025 - Present, Pittsburgh, PA<br>
+                                            <b>Research Assistant</b>, <a href="https://www.library.cmu.edu/"> Carnegie Mellon University Libraries</a>, Nov. 2025 - Present, Pittsburgh, PA<br>
+                                            <b>Content Protection Engineer</b>, <a href="https://www.gannett.com/"> USA Today · Gannett Media</a>, Aug. 2025 - Present, Pittsburgh, PA<br>
                                             <b>Research Intern</b>, <a href="https://www.heinz.cmu.edu/"> Heinz College, Carnegie Mellon University</a>, Jul. 2025 - Aug. 2025, Pittsburgh, PA<br>
                                             <b>Data Strategy Intern</b>, <a href="https://www.publicisgroupe.com/en"> Publicis Groupe</a>, Apr. 2024 - Jul. 2024, Shanghai, China<br>
-                                            <b>Data Analyst Intern</b>, <a href="https://www.waterdrop-inc.com/"> Waterdrop</a>, Jul. 2023 - Aug. 2023, Beijing, China</p>
+                                            <b>Business Analytics Intern</b>, <a href="https://www.waterdrop-inc.com/"> Waterdrop</a>, Jul. 2023 - Aug. 2023, Beijing, China</p>
 
                                         <hr>
 
                                         <p>
                                         <b>SKILLS</b><br>
-                                            <b>Languages</b>: SQL, R, Python (Pandas, NumPy, Matplotlib), Java, JavaScript/TypeScript, HTML/CSS, Shell, Linux<br>
-                                            <b>Framework & Tools</b>: Git, Docker, React, Django, Scikit-learn, R Shiny, Tableau, Excel, SPSS, Figma<br>
-                                            <b>Databases & Cloud</b>: PostgreSQL, SQLite, Oracle Database, MongoDB, Hadoop (MapReduce), Spark, AWS, Azure, GCP (BigQuery)
+                                            <b>Programming</b>: SQL, R, Python, Java<br>
+                                            <b>Data Analysis & Machine Learning</b>: Power BI, Tableau, Excel, SAP, Pandas, NumPy, Matplotlib, Seaborn, scikit-learn, TensorFlow, PyTorch, NLP<br>
+                                            <b>Data Systems & Cloud</b>: Relational Databases (RDBMS), MongoDB, Hadoop (MapReduce), Spark, AWS, Azure, GCP, Snowflake, Git, Docker
                                         </p>
 
                                         <hr>
                                         <p><b>PROJECTS</b><br>
-                                            <b>Pet Finder</b> | Full-Stack Development<br>
-                                            <b>A Computational Analysis of Energy & Public Policy Dissertations at CMU</b> | Computational Social Science<br>
-                                            <b>Bite-Sized Joy: Using Candy to Build an Inclusive CMU</b> | Data Visualization<br>
-                                            <b>Music Comment Sentiment Analysis</b> | Data Science, NLP<br>
-                                            <b>User Behavior Modeling & Recommendation Optimizing for Tencent News</b> | Data Science<br>
-                                            
+                                            <a href="#first">View projects</a>
                                         </p>
+
                                         <hr>
                                         <p><b>ACTIVITIES & AWARDS</b><br>
-                                            Workshop Director, <a href="https://cmudsc.com/"> CMU Data Science Club</a><br>
-                                            Member, <a href="https://sicss.io/2025/cmu/"> SICSS@CMU</a><br>
-                                            3rd Place & Team Lead, <a href="http://cmu.edu/corecompetencies/student/ironviz/index.html"> CMU IronViz Challenge</a></p>
+                                            Disaster Information & Planning Generalist, <a href="https://www.redcross.org/"> American Red Cross</a><br>
+                                            Member, <a href="https://sicss.io/2025/cmu/"> Summer Institute of Computational Social Science @ CMU</a><br>
+                                            3rd Place (Team Lead), <a href="http://cmu.edu/corecompetencies/student/ironviz/index.html"> CMU IronViz Challenge</a></p>
                                     </section>
 				<!-- Footer -->
 					<footer id="footer">

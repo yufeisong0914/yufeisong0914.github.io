@@ -3819,3 +3819,44 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .myBio{
 	color: grey;
 }
+
+.video-container {
+    position: relative;
+    width: 60%;
+    padding-top: 33.75%;
+    margin: 1.5rem auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.image-carousel {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 12px 0;
+  scroll-snap-type: x mandatory;
+}
+
+.image-carousel a {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+.image-carousel img {
+  height: 260px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: transform 0.2s ease;
+}
+
+.image-carousel img:hover {
+  transform: scale(1.03);
+}
